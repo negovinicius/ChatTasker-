@@ -308,12 +308,14 @@ Editar
 }
 
 Salve todas as alterações.
+
 2️⃣ Criar um Projeto no Google Cloud
 Acesse o Google Cloud Console.
 Crie um novo projeto e escolha um nome para ele (exemplo: ChatTasker).
 Certifique-se de estar utilizando o mesmo e-mail que usa no Google Apps Script e no Google Chat.
 Copie o ID do projeto recém-criado.
 Volte ao Google Apps Script, vá para Configurações e cole o ID do Projeto na seção "Projeto do Google Cloud Platform (GCP)".
+
 3️⃣ Configurar a Tela de Permissão OAuth
 No Google Cloud, acesse APIs e Serviços > Tela de Permissão OAuth.
 Configure:
@@ -322,6 +324,7 @@ E-mail de suporte: Insira seu e-mail.
 Logotipo: Pode ser qualquer imagem da sua escolha.
 Usuários autorizados: Adicione o seu próprio e-mail.
 Clique em Salvar e continuar.
+
 4️⃣ Ativar e Configurar a Google Chat API
 Vá para APIs e Serviços > APIs ativadas.
 Ative a Google Chat API.
@@ -335,6 +338,7 @@ Vá até o Google Apps Script, copie o ID de Implantação e cole no campo ID de
 Marque a opção "Disponibilizar o bot para pessoas e grupos específicos".
 Ative o registro de erros no Logging.
 Salve as configurações.
+
 5️⃣ Criar a Implantação do Bot
 No Google Apps Script, clique em Implantar > Nova Implantação.
 Escolha App da Web.
@@ -344,6 +348,7 @@ No campo Quem pode acessar, selecione:
 Ao implantar, será gerado um Código de Implantação.
 Copie este código e cole na Configuração do Google Cloud (ID de Implantação).
 Clique em Salvar e ativar o bot.
+
 6️⃣ Adicionar o Bot no Google Chat
 Vá até o grupo do Google Chat onde deseja adicionar o bot.
 Clique em Configurações > Apps e Integrações.
@@ -364,6 +369,7 @@ Copiar
 Editar
 const CHAT_WEBHOOK_URL = "LINK_DO_WEBHOOK_COPIADO";
 Salve e execute o código.
+
 7️⃣ Configurar Acionadores
 No Google Apps Script, vá para Gatilhos e configure:
 
@@ -375,6 +381,7 @@ Exclua acionadores antigos e configure a versão atual do projeto:
 
 Vá até Implantar > Gerenciar Implantações e copie a versão atual.
 Configure o acionador limparUsuarios() para rodar entre 23h e 00h.
+
 8️⃣ Testando o Bot
 No Google Chat, envie uma mensagem marcando o bot @ChatTasker.
 Se for a primeira vez, clique em Configuração e permita o acesso.
