@@ -389,6 +389,7 @@ Envie uma tarefa com pelo menos 160 caracteres.
 O bot responderá confirmando o registro.
 Teste removendo um usuário do grupo para verificar se ele é removido da lista de controle.
 Aguarde os horários de cobrança para ver se os lembretes são enviados.
+
 🎯 Configurações Avançadas
 Personalização de Mensagens
 Altere os textos de alerta e notificações no código.
@@ -403,12 +404,17 @@ Alteração de Horários
 Modifique os horários de cobrança no final do código.
 Ajuste os acionadores conforme necessário.
 Automação Completa
-Após configurar e testar, o bot funcionará automaticamente: ✅ Envia mensagem de bom dia e lembra da tarefa.
+Após configurar e testar, o bot funcionará automaticamente: 
+✅ Envia mensagem de bom dia e lembra da tarefa.
+
 ✅ Cobra os membros do grupo ao longo do dia.
+
 ✅ Notifica quem não enviou no final do dia.
+
 ✅ Limpa os dados à noite para o próximo dia.
 
 🎉 Conclusão
+
 Agora você tem um bot de gerenciamento de tarefas 100% funcional no Google Chat! 🚀
 
 Esse bot ajuda no controle de produtividade de equipes, reduz a necessidade de cobranças manuais e organiza melhor o fluxo de trabalho.
