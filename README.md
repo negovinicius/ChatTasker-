@@ -405,6 +405,7 @@ Modifique os horários de cobrança no final do código.
 Ajuste os acionadores conforme necessário.
 Automação Completa
 Após configurar e testar, o bot funcionará automaticamente: 
+
 ✅ Envia mensagem de bom dia e lembra da tarefa.
 
 ✅ Cobra os membros do grupo ao longo do dia.
