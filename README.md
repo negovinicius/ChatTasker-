@@ -11,7 +11,9 @@ Clique em Novo Projeto.
 No editor de código, crie um arquivo chamado Codigo.gs.
 Cole o código do bot no arquivo Codigo.gs (veja o código completo abaixo).
 
-Codigo.gs: -->
+Codigo.gs: 
+
+-->
 
 const CHAT_WEBHOOK_URL = "SEULINKWEBHOOK";
 
@@ -288,6 +290,7 @@ function configurarGatilhos() {
 
 Vá até Configurações e ative o Manifesto, isso adicionará o arquivo appsscript.json.
 No arquivo appsscript.json, cole o seguinte código:
+
 -->
 
 {
