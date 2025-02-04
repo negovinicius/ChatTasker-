@@ -10,6 +10,7 @@ Acesse o Google Apps Script.
 Clique em Novo Projeto.
 No editor de código, crie um arquivo chamado Codigo.gs.
 Cole o código do bot no arquivo Codigo.gs (veja o código completo abaixo).
+Codigo.gs: -->
 
 const CHAT_WEBHOOK_URL = "SEULINKWEBHOOK";
 
@@ -282,11 +283,12 @@ function configurarGatilhos() {
     .create();
 }
 
+<--
+
 Vá até Configurações e ative o Manifesto, isso adicionará o arquivo appsscript.json.
 No arquivo appsscript.json, cole o seguinte código:
-json
-Copiar
-Editar
+-->
+
 {
   "timeZone": "America/Sao_Paulo",
   "dependencies": {
@@ -306,6 +308,8 @@ Editar
     "access": "DOMAIN"
   }
 }
+
+<--
 
 Salve todas as alterações.
 
