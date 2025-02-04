@@ -4,6 +4,7 @@ O ChatTasker é um bot para o Google Chat (Workspace) que ajuda equipes a organi
 Com comandos simples, você pode manter a produtividade do time sem precisar cobrar manualmente cada membro do grupo.
 
 📌 Passo a Passo para Implementação
+
 1️⃣ Criar o Código no Google Apps Script
 Acesse o Google Apps Script.
 Clique em Novo Projeto.
